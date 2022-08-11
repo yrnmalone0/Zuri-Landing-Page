@@ -1,3 +1,28 @@
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Graphik'), url('https://fonts.cdnfonts.com/s/27112/GraphikRegular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Graphik'), url('https://fonts.cdnfonts.com/s/27112/GraphikMedium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Graphik'), url('https://fonts.cdnfonts.com/s/27112/GraphikSemibold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Graphik'), url('https://fonts.cdnfonts.com/s/27112/GraphikBold.woff') format('woff');
+}
+/*@import url('http://fonts.cdnfonts.com/css/graphik'); */
 @import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
 *{
     box-sizing: border-box;
@@ -647,7 +672,408 @@ img.dotted-card-2{
     }
 }
 
+/* PAGE 2 */
+.page2{
+    background: #FFFDF5;
+    max-width: 1440px;
+    font-size: 16px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+}
+header .navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+    z-index:99;
+    background:#FFFDF5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.navlinks nav ul{
+    display: flex;
+}
+.navlinks nav li{
+    padding: 0 28px;
+}
+.about-link{
+    margin-left:150px;
+}
+.navbar .thumbs{
+    width: 70px;
+    border: 9px solid #e7332b;
+    background-color: #F08A81;
+    border-radius: 50%;
+    margin-left: 70px;
+} 
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #585757;
+}
+.navbar a:hover{
+    color: #6a6f73;
+}
+.enroll{
+    padding: 10px 20px 10px 10px;
+}
+.container-content1{
+    padding: 15% 0 3% 0;
+    width: 100%;
+    display: flex;
+}
+.container-content1 .male{
+    width: 35%;
+    height: 380px;
+    margin-right: 5%;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+.container-content1 .lady{
+    width: 30%;
+    height: 350px;
+    margin-left: 6%;
+    margin-top: 6%;
+}
+.intro{
+    text-align: center;
+}
+.intro span{
+    font-size: 18px;
+    font-weight: 400;
+    color: #E7332B;
+    opacity: 0.9;
+    margin-left: 10%;
+}
+.intro h1{
+    width: 130%;
+    margin: 2% auto;
+    font-size: 2.9rem;
+    font-weight: 600;
+    line-height: 52px;
+    color: #1B1A20;
+    padding-right: 14%;
+}
+.intro p{
+    width: 90%;
+    margin: 5% auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #454447;
+    padding-left: 8%;
+}
+.intro .curvy-line{
+    max-width: 33%;
+    margin-left: 260px;
+}
+.intro .wire1{
+    max-width: 15%;
+    margin-left: 150px;
+    margin-bottom: 2%;
+}
+.intro .enroll-button{
+    background-color: #E7332B;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 40px;
+    margin-top: 5px;
+}
+.intro .enroll-button a{
+    text-decoration: none;
+    font-size: 1.1rem;    
+    color: #FBF8FF;
+}
+.horizontal-line1{
+    border: none;
+    height: 1px;
+    background-color: #514949;
+    opacity: 0.2;
+    margin: 0 4% 0 4%;
+}
+.horizontal-line2{
+    border: none;
+    height: 1px;
+    background-color: #514949;
+    opacity: 0.2;
+    margin: 0 4% 2% 4%;
+}
+.ingressive4G-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 4%;
+}
+.ingressive4G-info h2{
+    width: 30%;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1B1A20 ;
+    line-height: 31px;
+}
+.ingressive4G-info p{
+    width: 28%;
+    font-size: 23.8px;
+    font-weight: 400;
+    color: #454447 ;
+    text-align:end;
+    line-height: 31px;
+}
+.ingressive4G-info p a{
+    font-size: 1.3rem;
+    color: #43B97F;
+}
+.ingressive4G-info .ingressive-logo{
+    max-width: 19%;
+}
+#second-section{
+    margin-bottom: 6%;
+}
+.training-mode{
+    margin: 3% 4%;
+}
+.training-mode p{
+    font-size: 24px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #E7332B;
+    padding-bottom: 4px;
+}
+.training-mode span{
+    width: 50%;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #1B1A20;
+    line-height: 52px;
+}
+.training-mode .wire2{
+    max-width: 8%;
+    margin-left: 24%;
+}
+.training-mode .hmm{
+    display: flex;
+}
+.hmm .star{
+    max-width: 15%;
+    margin-left: 13%;
+}
+/* Six Boxes */
+.mode-container1{
+    margin: 5% 4% 25px 4%;
+    display: flex;
+}
+.mode-container1 .box1-3{
+    width: 40%;
+    padding: 0 0 0 4%;
+    border-radius: 20px;
+    box-shadow: 5px -4px 20px 5px #FFEEEA;
+    transition: .3s;
+}
+.mode-container1 .box1-3:hover{
+    transform: translate(0, -17px);
+}
+.box1-3 h2{
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: #1b1a20;
+    line-height: 78px;
+    margin-top: 17%;
+}
+.box1-3 h6{
+    width: 50%;
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: #1b1a20;
+    line-height: 47px;
+    margin-top: 7%;
+}
+.box1-3 p{
+    width: 81%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1b1a20;
+    line-height: 23px;
+    margin: 9% 0 26% 0;
+}
+.mode-container2{
+    margin: 0 4% 4% 4%;
+    display: flex;
+}
+.mode-container2 .box4-6{
+    width: 40%;
+    padding: 0 0 0 4%;
+    border-radius: 20px;
+    box-shadow: 5px 4px 20px 5px #FFEEEA;
+    transition: .3s;
+}
+.mode-container2 .box4-6:hover{
+    transform: translate(0, -17px);
+}
+.box4-6 h2{
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: #1b1a20;
+    line-height: 78px;
+    margin-top: 17%;
+}
+.box4-6 h6{
+    width: 70%;
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: #1b1a20;
+    line-height: 47px;
+    margin-top: 7%;
+}
+.box4-6 p{
+    width: 80%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1b1a20;
+    line-height: 23px;
+    margin: 9% 0 26% 0;
+}
+.box1 h2,
+.box1 h6,
+.box1 p{
+    color: #FFFFFF;
+}
+.curve{
+    width: 33%;
+    float: right;
+}
+.mode-container1 .box1{
+    background-color: #E7332B;
+}
+.mode-container1 .box2{
+    background-color: #FFFFFF;
+    margin: 0 25px;
+}
+.mode-container1 .box3{
+    background-color: #FFFFFF;
+}
+.mode-container2 .box4{
+    background-color: #FFFFFF;
+}
+.mode-container2 .box5{
+    background-color: #FFFFFF;
+    margin: 0 25px;
+}
+.mode-container2 .box6{
+    background-color: #FFFFFF;
+}
 
-
-
-
+/* Third Section */
+#third-section{
+    background-color: #E7332B;
+    padding: 13px 0 120px 0;
+}
+#third-section .activity{
+    display: flex;
+    margin: 3% 5.8%;
+}
+.activity .wire3{
+    max-width: 14%;
+    margin: 4% 0 0 52%;
+}
+.activity .p1{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.activity h3{
+    width: 89%;
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 52px;
+    margin-top: 7px;
+}
+.activity .p2{
+    width: 66%;
+    margin-top: 9%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.activity .enroll-button{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 34px;
+    margin: 30px 0 40px 0;
+}
+.activity .enroll-button a{
+    text-decoration: none;
+    font-size: 18px;    
+    color: #E7332B;
+}
+.activity .activity-listA{
+    display: flex;
+    margin-bottom: 25px;
+}
+.activity-listA .list2{
+    margin-left: 25px;
+}
+.activity-listA .list{
+    display: flex; 
+    align-items: center;
+    padding: 10px 50px 10px 15px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+}
+.activity .activity-listB{
+    display: flex;
+}
+.activity-listB .list4{
+    margin-left: 25px;
+}
+.activity-listB .list{
+    display: flex; 
+    align-items: center;
+    padding: 10px 50px 10px 15px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+}
+.activity-listA .list2{
+    padding: 8px 46px 8px 15px;
+}
+.activity-listB .list3{
+    padding: 10px 62px 10px 15px;
+}
+.activity-listB .list4{
+    padding: 10px 29px 10px 15px;
+}
+.list img{
+    max-width: 32%;
+    margin-right: 10px;
+}
+.list2 img{
+    max-width: 30%;
+}
+.list3 img{
+    max-width: 36%;
+}
+.list4 img{
+    max-width: 26%;
+}
+.list p{
+    font-size: 18px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.activity .activity-lady{
+    max-width: 60%;
+    height: 590px;
+    margin-top: 14px;
+}
+/* Fourth Section */
