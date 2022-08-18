@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zuri</title>
     <link href="./img/zuri.favicon.png" rel="icon" sizes="16x16 32x32" type="image/png">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/query.css">
+    <script src="https://kit.fontawesome.com/22ac1a4c0d.js" crossorigin="anonymous"></script>
 </head>
 <body class="page2">
     <header>
@@ -15,7 +17,7 @@
             <div class="navlinks">
                 <nav>
                     <ul>
-                        <li class="about-link"><a href="#">About</a></li>
+                        <li class="about-link"><a href="#about">About</a></li>
                         <li><a href="#">Why Us?</a></li>                       
                         <li><a href="#">Stacks Covered</a></li>                       
                         <li><a href="#">FAQs</a></li>
@@ -45,7 +47,7 @@
                 </div>
                    <img class="male" src="./img/male1-nbg.png" alt="male">
             </div>
-
+        <div id="about">
             <hr class="horizontal-line1">
             <div class="ingressive4G-info">
                 <h2>INGRESSIVE FOR GOOD WAS LAUNCHED IN JULY 2020 WITH NO DOLLAR IN DONATION...</h2>
@@ -54,6 +56,7 @@
                 tech skills, community, tools, resources, and jobs... <a href="#">Read More</a></p>
             </div>
             <hr class="horizontal-line2">
+        </div>
         </section>
         <section id="second-section">
             <div class="training-mode">
@@ -298,11 +301,14 @@
                     <p class="heading">Structure</p>
                     <h4>Program Structure</h4>
                     <p>There are 2 broad paths in this program based on your availability.</p>
+                    <img class="move" src="./img/move.svg" alt="">
+                    <img class="circle0" src="./img/circle.png" alt="">
                 </div>
                 <!-- Full-time Structure -->
             <div class="structures">
                 <div class="full-time">
                     <div class="content">
+                        <img class="hour-image" src="./img/hour.png" alt="">
                         <h3>Full-time</h3>
                         <p>Requires at least 25 hours weekly on program content.</p>
                         <div class="tracks">
@@ -323,11 +329,11 @@
                             <h4>Post Program:</h4>
                                <ul>
                                   <li>Certification of Attendance</li>
-                                  <li><a href="#">Zuri Internship</a></li>
-                                  <li>Laptop Reward (upgrade or new one)Zuri Internship</li>
-                                  <li>Job Placement</li>
+                                  <li><a href="#">Zuri Internship</a><img class="clarity" id="button" src="./img/clarity.svg" alt=""></li>
+                                  <li>Laptop Reward (upgrade or new one)<img class="clarity" src="./img/clarity.svg" alt=""></li>
+                                  <li>Job Placement<img class="clarity" src="./img/clarity.svg" alt=""></li>
                                   <li>Zuri Talent Pool</li>
-                                  <li>More Training:</li>
+                                  <li>More Training:<img class="clarity" src="./img/clarity.svg" alt=""></li>
                                   <li>Interview Prep</li>
                                   <li>Algorithms & Data Structure</li>
                                   <li>Freelance Setup & Training</li>
@@ -340,19 +346,20 @@
                 <!-- Part-time Structure -->
                 <div class="part-time">
                     <div class="content">
+                        <img class="time-image" src="./img/time.png" alt="">
                         <h3>Part-time</h3>
                         <p>Requires at least 11 hours weekly on program content.</p>
                         <div class="tracks">
                             <h4>Available Tracks:</h4>
                                <ul>
                                   <li>Frontend:</li>
-                                  <li class="li-1" >HTML, CSS, JavaScript</li>
+                                  <li>HTML, CSS, JavaScript</li>
                                   <li class="backend">Backend: Can only select one backend language</li>
-                                  <li class="li-2">Python,</li>
-                                  <li class="li-3">PHP,</li>
-                                  <li class="li-4">JavaScript</li>
+                                  <li>Python,</li>
+                                  <li>PHP,</li>
+                                  <li>JavaScript</li>
                                   <li class="design" >Design:</li>
-                                  <li class="li-5">Figma</li>
+                                  <li>Figma</li>
                                </ul>
                         </div>
                         <div class="phases">
@@ -371,10 +378,53 @@
                     </div>
                 </div>
             </div>
+<!-- 
+            <div class="popup">
+                <div class="popup-content">
+                    <div class="header">
+                       <span>Zuri Internship Is Optional</span>
+                       <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <p class="p1">What do we mean by this?</p>
+                    <p class="p2">The Zuri Internship is another level of training that places the participants 
+                      in a work simulation. It is not paid work; it’s a short training program to get 
+                      participants ready for actual jobs. There will be cash rewards for a job well done.</p>
+                </div>
+              </div> -->
+              <img class="circle1" src="./img/circle.png" alt="">
+              <div class="get-started">
+                <div class="content">
+                    <img class="right-curve" src="./img/bend1.svg" alt="">
+                    <img class="left-curve" src="./img/curve2.svg" alt="">
+                    <img class="coil" src="./img/round.svg" alt="">
+                    <img class="plain-dots" src="./img/mains.png" alt="">
+                    <p>Get Started</p>
+                    <h3>Break into the tech industry like a Pro</h3>
+                    <button class="enroll-button" type="button"><a href="#">Enroll Now</a></button>
+                </div>
+              </div>
             </div>
-
         </section>
     </main>
     <script src="app.js"></script>
 </body>
+<footer id="footer-page2">
+    <div class="footer-content">
+        <div class="zuri-logo">
+            <img src="./img/logo.svg" alt="zuru & I4G logo"><br>
+            <span>&copy 2022 Zuri Training</span>
+        </div>  
+        <div class="social-icons">
+            <img src="./img/facebook.svg" alt="">
+            <img src="./img/linkd.svg" alt="">
+            <img src="./img/twitter.svg" alt="">
+            <img src="./img/youtube.svg" alt=""><br>
+            <div class="privacy">
+                <a href="#">Privacy Policy</a>
+                <a class="ingresive4g" href="#">Ingressive For Good</a>
+            </div>
+        </div>       
+    </div>
+
+</footer>
 </html>

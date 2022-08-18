@@ -1366,7 +1366,7 @@ header .navbar{
 }
 /* Sixth Section */
 #sixth-section{
-    margin-top: 5%;
+    margin: 5% 0 0 0;
 }
 .program-stucture .description{
     text-align: center;
@@ -1391,6 +1391,18 @@ header .navbar{
     line-height: 23px;
     color: #333333;
 }
+.program-stucture .description .move{
+    position: absolute;
+    left: 0;
+    top: 905%;
+}
+.program-stucture .description .circle0{
+    position: absolute;
+    right: 67px;
+    top: 969%;
+    width: 13%;
+    z-index: -1;
+}
 .description .wire6{
     max-width: 9.4%;
     margin-right: 55%;
@@ -1398,7 +1410,7 @@ header .navbar{
 .description .star1{
     max-width: 10%;
     position: absolute;
-    top: 825%;
+    top: 830%;
 }
 .program-stucture .structures{
     display: flex;
@@ -1413,6 +1425,7 @@ header .navbar{
     color: #FFFFFF;
     padding: 6% 8% 5% 4.5%;
     border-radius: 70px;
+    box-shadow: -4px 4px 50px 4px #f5d6cd;
 }
 .full-time .content h3{
     font-size: 35px;
@@ -1446,6 +1459,66 @@ header .navbar{
     line-height: 22px;
     text-decoration: none;
 }
+.full-time .content ul li a{
+    color: #FFFFFF;
+}
+.full-time .hour-image{
+    position: absolute;
+    width: 7%;
+    margin-left: 27%;
+    margin-top: 36%;
+}
+/* .popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 500px;
+    max-width: 80%;
+}
+.popup-content{
+    background-color: #25FFFF;
+    color: #1b1a20;
+    padding: 12% 6% 16% 15%;
+    border-radius: 13px;
+    border: 1px solid #1B1A20;
+    
+}
+.popup-content .header{
+    display: flex;
+    margin-bottom: 5%;
+}
+.popup-content .fa-xmark{
+    margin: 7% 0 0 16%;
+    font-size: 30px;
+    color: #e7332b;
+}
+.popup-content span{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #1b1a20;
+    margin-top: 7%;
+}
+.popup-content .p1{
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    color: 585757;
+}
+.popup-content .p2{
+    width: 90%;
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    color: 585757;
+    margin-top: 5%;
+} */
+.clarity{
+    max-width: 20px;
+    padding-left: 5px;
+}
 .full-time .content ul li:before{
     content:" • ";
     padding-right: 5.4px;
@@ -1457,6 +1530,7 @@ header .navbar{
     padding: 6% 19% 2% 4.5%;
     border-radius: 70px;
     margin-left: 2%;
+    box-shadow: 4px 4px 50px 4px #f5d6cd;
 }
 .part-time .content h3{
     font-size: 35px;
@@ -1498,3 +1572,117 @@ header .navbar{
     content:" • ";
     padding-right: 5.4px;
 }
+.part-time .time-image{
+    position: absolute;
+    width: 13%;
+    margin-left: 19%;
+    margin-top: 32%;
+}
+/* Get started */
+.program-stucture .get-started{
+    background-color: #E7332B;
+    width: 90%;
+    margin: 18% auto 0 auto;
+    border-radius: 20px;
+    padding: 0 0 110px 0;
+}
+.get-started .content{
+    text-align: center;
+    color: #FFFFFF;
+}
+.get-started .content p{
+    padding-top: 6%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+}
+.get-started .content h3{
+    padding-top: 20px;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 72px;
+    width: 50%;
+    margin: 0 auto;
+}
+.content .enroll-button{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 33px;
+    margin-top: 40px;
+}
+.content .enroll-button a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #e7332b;
+    text-decoration: none;
+}
+.content .right-curve{
+    position: absolute;
+    width: 11%;
+    right: 67px;
+}
+.content .left-curve{
+    position: absolute;
+    width: 9.5%;
+    left: 67px;
+    margin-top: 25%;
+}
+.content .coil{
+    position: absolute;
+    width: 12%;
+    left: 210px;
+    margin-top: 5%;
+}
+.content .plain-dots{
+    position: absolute;
+    width: 11%;
+    right: 67px;
+    margin-top: 26%;
+}
+.program-stucture .circle1{
+    position: absolute;
+    width: 9%;
+    top: 998%;
+    margin-left: 5%;
+}
+/* Footer */
+#footer-page2 {
+    margin: 0 6%;
+}
+#footer-page2 .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7%;
+}
+.footer-content .zuri-logo img{
+    max-width: 97%;
+    margin-bottom: 14% ;
+}
+.footer-content .zuri-logo span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #1b1a20;
+}
+.footer-content .social-icons{
+    text-align: right;
+}
+.footer-content .social-icons img{
+    padding-left: 2px;
+    margin-bottom: 14%;
+    /* margin-right: 2%; */
+}
+.social-icons .privacy a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #1b1a20;
+    padding: 0 4px;
+}
+
+
+

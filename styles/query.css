@@ -1,0 +1,6 @@
+@media (max-width: 1440px){
+    .page2{
+        max-width: 1440px;
+        overflow-x: hidden;
+    }
+}
